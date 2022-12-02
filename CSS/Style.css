@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+  }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 100px;
+    background-color: #efefef;
+}
+
+a{
+   text-decoration: none; 
+   color: #fff;
+}
+
+a:visited{
+    color: white;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 0;
+    background-color: burlywood;
+    color: #fff;
+}
+
+.nav_li{
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    
+}
+
+.nav_li i{
+    width: 20px;
+    box-sizing: border-box;
+    text-align: right;
+    margin-left: 5px;
+}
+
+.nav_li:hover >a{
+    color: #bbb;
+}
+
+.nav_li:hover {
+    color: #bbb;
+}
+
+.titulo {
+    color: white;
+    font-size: 34px;
+    padding: 20px;
+}
+
+.hea{
+    width: 100%;
+    color: #fff;
+    margin-top: -100px;
+    position: absolute;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: 75% 24.35%;
+    grid-gap:10px;
+}
+
+.texto{
+    padding: 35px;
+    font-size: 20px;
+}
+
+.indice{
+  padding: 35px;
+  background-color: coral;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.píe{
+    float: right;
+}
+
+footer{
+    background-color: burlywood;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section{
+    float: right;
+}
+
+p img{
+    width: 500px;
+    border-radius: 3px;
+}
+
+/*
+Bloque de estilos para los section
+*/
+.elbueno {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*
+Bloque de estilos para el menú de cuentos
+*/
+section article{
+    font-family: 'Montserrat', sans-serif;
+    transition: box-shadow 0.3s ease;
+    background-color: burlywood;
+    margin: 8px 0;
+    border-radius: 4px;
+    padding: 4px 0;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow:  0  0.1rem  0.4rem rgba(0,0,0,0.3);
+}
+
+section article a{
+    text-decoration: none; 
+    color: #160e27;
+ }
+
+section article a:visited{
+    color: #160e27;
+}
